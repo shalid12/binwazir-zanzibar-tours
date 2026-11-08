@@ -1,0 +1,120 @@
+/* Shared typography system: readable, consistent and professional across every page. */
+html {
+  font-size: 16px;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+body,
+p {
+  font-size: 16px;
+  line-height: 1.72;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.022em;
+}
+h1 {
+  line-height: 1.08;
+}
+h2 {
+  line-height: 1.15;
+}
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.28;
+}
+.page-hero h1,
+.detail-hero h1 {
+  font-size: clamp(2.5rem, 4.2vw, 3.625rem);
+  font-weight: 800;
+  letter-spacing: -0.032em;
+}
+.section-title {
+  font-size: clamp(2.125rem, 3.2vw, 2.6875rem);
+  font-weight: 800;
+}
+.cta-box h2,
+.tour-detail-cta h2 {
+  font-size: clamp(2rem, 3.1vw, 2.6875rem);
+  font-weight: 800;
+}
+.feature-card h3,
+.service-card h3,
+.process-card h3,
+.promise-card h3,
+.tour-body h3,
+.related-body h3,
+.prep-card h3,
+.contact-method h3 {
+  font-weight: 800;
+}
+.feature-card p,
+.service-card p,
+.process-card p,
+.promise-card p,
+.tour-body p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.related-body p,
+.cross-card p,
+.place-content p,
+.contact-method p,
+.enquiry-guide-grid .prep-card p {
+  font-size: 14px;
+  line-height: 1.65;
+}
+.detail-main > p,
+.faq-answer {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.section-lead {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.tour-link,
+.related-body > a,
+.place-link {
+  font-size: 12px;
+}
+.eyebrow,
+.section-kicker,
+.btn,
+.site-book-btn {
+  font-weight: 900;
+}
+@media (max-width: 767.98px) {
+  body,
+  p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .page-hero h1,
+  .detail-hero h1 {
+    font-size: clamp(2.25rem, 10vw, 2.625rem);
+  }
+  .section-title {
+    font-size: clamp(2rem, 8.5vw, 2.25rem);
+  }
+  .cta-box h2,
+  .tour-detail-cta h2 {
+    font-size: clamp(1.875rem, 8vw, 2.125rem);
+  }
+  .section-lead {
+    font-size: 15px;
+  }
+}

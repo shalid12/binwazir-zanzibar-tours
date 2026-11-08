@@ -1,0 +1,24 @@
+.tour-price {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: -2px 0 14px;
+}
+.tour-price span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.tour-price strong {
+  color: var(--gold);
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 1;
+}
+.tour-price small {
+  color: #7b8d9b;
+  font-size: 10px;
+  font-weight: 700;
+}

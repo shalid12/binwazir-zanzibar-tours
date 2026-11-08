@@ -1,0 +1,131 @@
+.popular-places {
+  padding: 95px 0;
+  background: #fff;
+}
+.popular-places .section-lead {
+  margin-right: auto;
+  margin-left: auto;
+}
+.place-card {
+  position: relative;
+  display: block;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 18px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 14px 38px rgba(6, 40, 61, 0.12);
+  isolation: isolate;
+}
+.place-card:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 28, 43, 0.05) 20%,
+    rgba(3, 28, 43, 0.9) 100%
+  );
+  transition: background 0.35s ease;
+}
+.place-card:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: inherit;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s ease;
+}
+.place-card:hover:after {
+  transform: scale(1.06);
+}
+.place-card:hover:before {
+  background: linear-gradient(
+    180deg,
+    rgba(3, 28, 43, 0.12),
+    rgba(3, 28, 43, 0.94)
+  );
+}
+.place-number {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.94);
+  color: #06283d;
+  font-size: 11px;
+  font-weight: 900;
+}
+.place-content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+}
+.place-location {
+  display: block;
+  margin-bottom: 7px;
+  color: #f59e0b;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.place-content h3 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 23px;
+}
+.place-content p {
+  margin: 0 0 15px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 13px;
+  line-height: 1.55;
+}
+.place-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.place-link i {
+  color: #f59e0b;
+  transition: transform 0.25s ease;
+}
+.place-card:hover .place-link i {
+  transform: translateX(4px);
+}
+@media (max-width: 767.98px) {
+  .popular-places {
+    padding: 70px 0;
+  }
+  .place-card {
+    height: 310px;
+  }
+  .place-content {
+    padding: 22px;
+  }
+  .place-content h3 {
+    font-size: 21px;
+  }
+}
+.popular-places {
+  padding: 64px 0;
+}
+@media (max-width: 767.98px) {
+  .popular-places {
+    padding: 50px 0;
+  }
+}

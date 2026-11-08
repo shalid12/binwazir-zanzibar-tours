@@ -1,0 +1,98 @@
+.floating-actions {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.float-action {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  color: #fff !important;
+  box-shadow: 0 8px 22px rgba(3, 28, 43, 0.24);
+  font-size: 17px;
+  line-height: 1;
+  text-decoration: none !important;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+.float-action:hover {
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 12px 28px rgba(3, 28, 43, 0.3);
+  filter: brightness(1.05);
+}
+.float-action:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+.float-mail {
+  background: #e65245;
+}
+.float-whatsapp {
+  background: #18b968;
+}
+@media (max-width: 575.98px) {
+  .floating-actions {
+    left: auto;
+    right: max(10px, env(safe-area-inset-right));
+    bottom: max(70px, calc(env(safe-area-inset-bottom) + 16px));
+    flex-direction: column;
+    gap: 7px;
+    transform: none;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+  .float-action {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+    border-width: 1px;
+    font-size: 15px;
+    box-shadow: 0 6px 18px rgba(3, 28, 43, 0.22);
+  }
+  .float-action:hover {
+    transform: translateY(-2px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .float-action {
+    transition: none;
+  }
+}
+
+html,
+body {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.ftco-footer {
+  margin-bottom: 0 !important;
+}
+.gtranslate_wrapper {
+  position: fixed !important;
+  left: max(12px, env(safe-area-inset-left));
+  bottom: max(12px, env(safe-area-inset-bottom));
+  z-index: 1100;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1;
+}
+.gtranslate_wrapper:empty {
+  display: none !important;
+}

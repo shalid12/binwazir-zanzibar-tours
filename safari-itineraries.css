@@ -1,0 +1,32 @@
+.safari-catalogue {
+  padding: 18px 0 64px;
+  background: #f8fcff;
+}
+.safari-catalogue .tour-card {
+  height: 100%;
+}
+.safari-catalogue .tour-body {
+  display: flex;
+  flex-direction: column;
+}
+.safari-catalogue .tour-body p {
+  flex: 1;
+}
+.safari-price-note {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  margin: 3px 0 14px;
+  color: #5d7285;
+  font-size: 12px;
+}
+.safari-price-note strong {
+  color: #06283d;
+  font-size: 22px;
+  font-weight: 900;
+}
+@media (max-width: 767.98px) {
+  .safari-catalogue {
+    padding: 42px 0;
+  }
+}
