@@ -4440,3 +4440,25 @@ img .ftco-about-section .text {
   color: gray;
   color: #fea116;
 }
+
+@media (max-width: 991.98px) {
+  .site-navbar .navbar-toggler,
+  .ftco-navbar-light .navbar-toggler {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 9px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.72) !important;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .site-navbar .navbar-toggler .fa,
+  .ftco-navbar-light .navbar-toggler .fa {
+    font-size: 16px;
+  }
+}
