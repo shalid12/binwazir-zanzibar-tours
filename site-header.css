@@ -1,8 +1,8 @@
 :root {
-  --site-deep: #031c2b;
-  --site-navy: #06283d;
-  --site-blue: #075985;
-  --site-gold: #f59e0b;
+  --site-deep: #14532D;
+  --site-navy: #166534;
+  --site-blue: #15803D;
+  --site-gold: #F59E0B;
 }
 .top-strip {
   background: var(--site-deep) !important;
@@ -66,7 +66,7 @@
 }
 .site-brand-copy small {
   display: block;
-  color: #ffc23b;
+  color: #FBBF24;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.13em;
@@ -82,7 +82,7 @@
 }
 .site-navbar .navbar-nav > .nav-item > .nav-link:hover,
 .site-navbar .navbar-nav > .nav-item > .nav-link.active {
-  color: #ffc23b !important;
+  color: #FBBF24 !important;
 }
 .site-navbar .navbar-toggler {
   color: #fff !important;

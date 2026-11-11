@@ -1,11 +1,11 @@
 :root {
-  --navy: #06283d;
-  --navy2: #075985;
-  --gold: #f59e0b;
-  --sand: #f3faff;
-  --sea: #009fe3;
-  --ink: #102a43;
-  --muted: #5d7285;
+  --navy: #166534;
+  --navy2: #15803D;
+  --gold: #F59E0B;
+  --sand: #DCFCE7;
+  --sea: #16A34A;
+  --ink: #14532D;
+  --muted: #4B6B55;
 }
 
 html {
@@ -89,8 +89,8 @@ a {
 }
 
 .btn-primary:hover {
-  background: #ffb51b !important;
-  border-color: #ffb51b !important;
+  background: #FBBF24 !important;
+  border-color: #FBBF24 !important;
   transform: translateY(-2px);
 }
 
@@ -107,7 +107,7 @@ a {
 }
 
 .top-strip {
-  background: #031c2b;
+  background: #14532D;
   color: rgba(255, 255, 255, 0.82);
   font-size: 13px;
 }
@@ -162,7 +162,7 @@ a {
 }
 
 .brand-copy small {
-  color: #ffc23b;
+  color: #FBBF24;
   font-size: 10px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -178,7 +178,7 @@ a {
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover,
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
-  color: #ffc23b !important;
+  color: #FBBF24 !important;
 }
 
 .navbar-toggler {
@@ -191,7 +191,7 @@ a {
   overflow: hidden;
   height: 680px;
   min-height: 680px;
-  background: #031c2b url(background_01.jpg) center/cover no-repeat;
+  background: #14532D url(background_01.jpg) center/cover no-repeat;
 }
 
 .hero-background-video {
@@ -400,7 +400,7 @@ a {
   height: 126px;
   border-radius: 50%;
   background: var(--gold);
-  color: var(--navy);
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1916,7 +1916,7 @@ a {
 }
 
 .footer-bottom {
-  background: linear-gradient(135deg, #005f8f 0%, #007fb5 55%, #009fe3 100%);
+  background: linear-gradient(135deg, #005f8f 0%, #007fb5 55%, #16A34A 100%);
 }
 
 .footer-bottom p {
@@ -1929,11 +1929,11 @@ a {
 
 .ftco-navbar-light,
 .ftco-footer {
-  background: linear-gradient(90deg, #06283d 0%, #075985 100%) !important;
+  background: linear-gradient(90deg, #166534 0%, #15803D 100%) !important;
 }
 
 .footer-bottom {
-  background: #031c2b !important;
+  background: #14532D !important;
 }
 
 .why-section p {
