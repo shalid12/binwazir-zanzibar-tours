@@ -1567,6 +1567,17 @@ a {
   transform: translateY(-3px);
 }
 
+.ftco-footer-social .footer-social-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+}
+
 .footer-contact {
   list-style: none;
   padding: 0;
