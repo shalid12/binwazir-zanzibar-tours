@@ -12,9 +12,9 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(3, 28, 43, 0.94),
-    rgba(3, 28, 43, 0.62) 57%,
-    rgba(3, 28, 43, 0.25)
+    rgba(3, 28, 43, 0.82),
+    rgba(3, 28, 43, 0.48) 57%,
+    rgba(3, 28, 43, 0.18)
   );
 }
 .detail-hero .container-xl {
@@ -30,11 +30,13 @@
   font-size: 58px;
   line-height: 1.06;
   margin: 16px 0 20px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.42);
 }
 .detail-hero p {
   color: rgba(255, 255, 255, 0.83);
   font-size: 18px;
   max-width: 650px;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.42);
 }
 .detail-badges {
   display: flex;
@@ -430,7 +432,11 @@
     min-height: 570px;
   }
   .detail-hero:before {
-    background: rgba(3, 28, 43, 0.75);
+    background: linear-gradient(
+      90deg,
+      rgba(3, 28, 43, 0.64),
+      rgba(3, 28, 43, 0.34)
+    );
   }
   .detail-hero h1 {
     font-size: 39px;
