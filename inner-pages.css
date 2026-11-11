@@ -121,10 +121,13 @@ a {
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(3, 28, 43, 0.94),
-    rgba(3, 28, 43, 0.62) 55%,
-    rgba(3, 28, 43, 0.28)
+    rgba(3, 28, 43, 0.58),
+    rgba(3, 28, 43, 0.34) 55%,
+    rgba(3, 28, 43, 0.12)
   );
+}
+.page-hero.page-style-005 {
+  background-image: url("background_01.jpg");
 }
 .page-hero .container-xl {
   position: relative;
@@ -746,7 +749,7 @@ a {
     text-align: center;
   }
   .page-hero:before {
-    background: rgba(3, 28, 43, 0.76);
+    background: rgba(3, 28, 43, 0.42);
   }
   .hero-copy {
     padding: 72px 0;

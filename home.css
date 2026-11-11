@@ -237,9 +237,9 @@ a {
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(3, 17, 29, 0.88) 0%,
-    rgba(3, 17, 29, 0.56) 48%,
-    rgba(3, 17, 29, 0.2) 100%
+    rgba(3, 17, 29, 0.58) 0%,
+    rgba(3, 17, 29, 0.34) 48%,
+    rgba(3, 17, 29, 0.12) 100%
   );
 }
 
@@ -1757,8 +1757,8 @@ a {
   .hero-slide:after {
     background: linear-gradient(
       90deg,
-      rgba(3, 17, 29, 0.88),
-      rgba(3, 17, 29, 0.55)
+      rgba(3, 17, 29, 0.58),
+      rgba(3, 17, 29, 0.34)
     );
   }
 

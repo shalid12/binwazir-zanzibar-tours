@@ -12,9 +12,9 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(3, 28, 43, 0.82),
-    rgba(3, 28, 43, 0.48) 57%,
-    rgba(3, 28, 43, 0.18)
+    rgba(3, 28, 43, 0.58),
+    rgba(3, 28, 43, 0.34) 57%,
+    rgba(3, 28, 43, 0.12)
   );
 }
 .detail-hero .container-xl {
@@ -434,8 +434,8 @@
   .detail-hero:before {
     background: linear-gradient(
       90deg,
-      rgba(3, 28, 43, 0.64),
-      rgba(3, 28, 43, 0.34)
+      rgba(3, 28, 43, 0.44),
+      rgba(3, 28, 43, 0.24)
     );
   }
   .detail-hero h1 {

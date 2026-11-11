@@ -30,6 +30,7 @@
   <meta name="twitter:image" content="background_01.jpg" />
 
   <meta property="og:image" content="background_01.jpg" />
+  <link rel="preload" as="image" href="background_01.jpg" fetchpriority="high" />
 
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800;900&display=swap"
@@ -116,9 +117,9 @@
   </nav>
   <main>
     <section class="slider-hero">
-      <video class="hero-background-video" autoplay muted loop playsinline preload="metadata"
+      <video class="hero-background-video" data-nearby-autoplay autoplay muted loop playsinline preload="none"
         poster="background_01.jpg" aria-hidden="true">
-        <source src="explore_zanzibar_with_binwazir.mp4" type="video/mp4" />
+        <source data-src="explore_zanzibar_with_binwazir.mp4" type="video/mp4" />
       </video>
       <div class="hero-slider">
         <div class="item">
@@ -484,9 +485,9 @@
     <section class="home-video-section">
       <div class="container-xl">
         <div class="home-video-frame">
-          <video controls playsinline preload="metadata" poster="background_01.jpg"
+          <video data-nearby-autoplay autoplay muted loop playsinline preload="none" poster="background_01.jpg"
             aria-label="Explore Zanzibar with Binwazir Zanzibar Tours and Safari">
-            <source src="explore_zanzibar_with_binwazir.mp4" type="video/mp4" />
+            <source data-src="explore_zanzibar_with_binwazir.mp4" type="video/mp4" />
             Your browser does not support HTML video.
           </video>
         </div>
