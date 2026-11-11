@@ -97,6 +97,10 @@ h6 {
 .site-book-btn {
   font-weight: 900;
 }
+.btn {
+  padding: 10px 17px;
+}
+
 @media (max-width: 767.98px) {
   body,
   p {
@@ -113,6 +117,10 @@ h6 {
   .cta-box h2,
   .tour-detail-cta h2 {
     font-size: clamp(1.875rem, 8vw, 2.125rem);
+  }
+  .btn {
+    padding: 9px 14px;
+    font-size: 12px;
   }
   .section-lead {
     font-size: 15px;

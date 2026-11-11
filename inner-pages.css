@@ -180,7 +180,7 @@ a {
   font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 14px 22px;
+  padding: 10px 17px;
 }
 .btn-primary {
   background: var(--gold) !important;
@@ -596,12 +596,15 @@ a {
   text-transform: uppercase;
 }
 .footer-about p {
-  color: rgba(255, 255, 255, 0.76) !important;
-  font-size: 14px;
+  color: rgba(255, 255, 255, 0.94) !important;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.75;
 }
 .ftco-footer .ftco-footer-widget h2 {
   color: #fff;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 900;
   margin-bottom: 27px;
   padding-bottom: 12px;
   position: relative;
@@ -621,6 +624,7 @@ a {
 .footer-links a {
   color: rgba(255, 255, 255, 0.8) !important;
   font-size: 14px;
+  font-weight: 600;
 }
 .footer-links i {
   color: var(--gold);
@@ -649,8 +653,9 @@ a {
 .footer-contact a {
   display: flex;
   align-items: flex-start;
-  color: rgba(255, 255, 255, 0.82) !important;
+  color: #fff !important;
   font-size: 14px;
+  font-weight: 600;
 }
 .footer-contact li {
   margin-bottom: 17px !important;
@@ -671,8 +676,9 @@ a {
   padding: 21px 0;
 }
 .footer-bottom p {
-  color: rgba(255, 255, 255, 0.76) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
   font-size: 13px;
+  font-weight: 500;
 }
 .floating-actions {
   position: fixed;
@@ -850,5 +856,25 @@ a {
 @media (max-width: 767.98px) {
   .section-space {
     padding: 50px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .ftco-footer .footer-main .row {
+    row-gap: 12px;
+  }
+
+  .ftco-footer .footer-main .row > .col-6 {
+    margin-bottom: 0 !important;
+  }
+
+  .ftco-footer .footer-main .row > .col-6 .ftco-footer-widget {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .ftco-footer .footer-main .row > .col-6 {
+    flex: 0 0 50%;
+    width: 50%;
+    max-width: 50%;
   }
 }

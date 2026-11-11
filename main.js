@@ -18,7 +18,7 @@
         animateIn: "tns-fadeIn",
         animateOut: "tns-fadeOut",
         speed: 700,
-        nav: true,
+        nav: false,
         controls: false,
         autoplayButtonOutput: false,
       });

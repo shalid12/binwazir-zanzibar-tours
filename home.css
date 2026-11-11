@@ -78,7 +78,7 @@ a {
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 15px 24px;
+  padding: 11px 18px;
 }
 
 .btn-primary {
@@ -295,21 +295,10 @@ a {
   gap: 12px;
 }
 
+.slider-hero .tns-outer > .tns-nav,
+.slider-hero .hero-slider + .tns-nav,
 .hero-slider .tns-nav {
-  right: 32px;
-  bottom: 32px;
-}
-
-.hero-slider .tns-nav button {
-  width: 28px;
-  height: 3px;
-  border-radius: 3px;
-  background: rgba(255, 255, 255, 0.55);
-}
-
-.hero-slider .tns-nav button.tns-nav-active {
-  background: var(--gold);
-  width: 48px;
+  display: none !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1502,9 +1491,10 @@ a {
 }
 
 .footer-about p {
-  color: #9eacbb !important;
-  font-size: 14px;
-  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.94) !important;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.75;
 }
 
 .ftco-footer .ftco-footer-widget h2 {
@@ -1512,8 +1502,8 @@ a {
   color: #fff;
   margin-bottom: 28px;
   padding-bottom: 13px;
-  font-size: 17px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .ftco-footer .ftco-footer-widget h2:after {
@@ -1533,8 +1523,9 @@ a {
 .footer-links li a {
   display: inline-flex;
   align-items: center;
-  color: #b9c4d1 !important;
+  color: rgba(255, 255, 255, 0.92) !important;
   font-size: 14px;
+  font-weight: 600;
 }
 
 .footer-links li a i {
@@ -1586,8 +1577,9 @@ a {
 .footer-contact li a {
   display: flex;
   align-items: flex-start;
-  color: #b9c4d1 !important;
+  color: #fff !important;
   font-size: 14px;
+  font-weight: 600;
   line-height: 1.65;
 }
 
@@ -1619,8 +1611,9 @@ a {
 }
 
 .footer-bottom p {
-  color: #7f8d9d !important;
+  color: rgba(255, 255, 255, 0.9) !important;
   font-size: 13px;
+  font-weight: 500;
 }
 
 .footer-bottom a {
@@ -1703,12 +1696,14 @@ a {
 
   .hero-copy {
     padding: 82px 0 125px;
-    text-align: center;
+    text-align: left;
   }
 
   .hero-eyebrow {
-    justify-content: center;
-    font-size: 11px;
+    justify-content: flex-start;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    gap: 8px;
   }
 
   .hero-copy h1,
@@ -1718,10 +1713,13 @@ a {
 
   .hero-copy p {
     font-size: 16px;
+    max-width: 34rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .hero-actions {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .trust-bar {
@@ -1872,8 +1870,16 @@ a {
     font-size: 34px;
   }
 
+  .hero-actions {
+    justify-content: flex-start;
+    gap: 9px;
+  }
+
   .hero-actions .btn {
-    width: 100%;
+    width: auto;
+    max-width: 100%;
+    padding: 10px 14px;
+    font-size: 11px;
   }
 
   .about-visual {
@@ -1898,7 +1904,7 @@ a {
 .ftco-footer .footer-links li a,
 .ftco-footer .footer-contact li,
 .ftco-footer .footer-contact li a {
-  color: rgba(255, 255, 255, 0.82) !important;
+  color: rgba(255, 255, 255, 0.96) !important;
 }
 
 .ftco-footer .ftco-footer-widget h2:after {
@@ -1920,7 +1926,8 @@ a {
 }
 
 .footer-bottom p {
-  color: rgba(255, 255, 255, 0.78) !important;
+  color: rgba(255, 255, 255, 0.92) !important;
+  font-weight: 500;
 }
 
 .footer-bottom a {
@@ -2096,5 +2103,25 @@ a {
     flex-direction: column;
     padding: 21px;
     text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .ftco-footer .footer-main .row {
+    row-gap: 12px;
+  }
+
+  .ftco-footer .footer-main .row > .col-6 {
+    margin-bottom: 0 !important;
+  }
+
+  .ftco-footer .footer-main .row > .col-6 .ftco-footer-widget {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .ftco-footer .footer-main .row > .col-6 {
+    flex: 0 0 50%;
+    width: 50%;
+    max-width: 50%;
   }
 }

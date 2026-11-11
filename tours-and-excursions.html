@@ -49,6 +49,7 @@
       rel="apple-touch-icon-precomposed"
     />
 
+    <meta name="theme-color" content="#166534" />
     <meta name="twitter:image" content="" />
 
     <meta property="og:image" content="" />
@@ -65,6 +66,9 @@
     />
     <link rel="stylesheet" href="aos.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="inner-pages.css" />
+    <link rel="stylesheet" href="tour-listing.css" />
+    
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -106,7 +110,7 @@
     <link rel="stylesheet" href="page-styles.css" />
   </head>
 
-  <body>
+  <body class="all-experiences-page">
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -187,77 +191,108 @@
       </div>
     </nav>
 
-    <section class="hero-wrap hero-wrap-2 page-style-014">
-      <div class="overlay"></div>
-      <div class="container">
-        <div
-          class="row no-gutters slider-text align-items-center justify-content-center"
-        >
-          <div class="col-md-9 pt-5 text-center">
-            <p class="breadcrumbs">
-              <span class="mr-2"
-                ><a href="index.html"
-                  >Home <i class="fa fa-chevron-right"></i></a
-              ></span>
-              <span>Services <i class="fa fa-chevron-down"></i></span>
-            </p>
-            <h1 class="mb-0 bread">Tours & Excursions</h1>
-            <br />
+        <main>
+      <section class="page-hero page-style-005">
+        <div class="container-xl">
+          <div class="hero-copy">
+            <span class="eyebrow">Island days. Safari stories.</span>
+            <h1>Find your kind of Zanzibar adventure.</h1>
+            <p>Explore private island tours, ocean trips, local culture and Tanzania safaris, all planned with a knowledgeable local team.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#all-experiences">Browse experiences <i class="fa fa-arrow-down ml-2"></i></a>
+              <a class="btn btn-outline-light" href="contact.html">Plan with our team</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-about-section">
-      <div class="container-xl">
-        <div class="row g-xl-5">
-          <div
-            class="col-md-8 heading-section"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-duration="1000"
-          >
-            <span class="subheading"
-              >Unforgettable Zanzibar Tours & Excursions</span
-            >
-            <h2 class="mb-4">Binwazir Zanzibar Tours and Safari</h2>
-            <p class="page-style-015">
-              Binwazir Zanzibar Tours and Safari offers an unforgettable range
-              of tours and excursions designed to immerse you in the
-              breathtaking beauty and rich culture of Zanzibar. From thrilling
-              wildlife safaris and serene beach excursions to vibrant cultural
-              tours and exhilarating snorkeling adventures, our expert guides
-              ensure a personalized and memorable experience tailored to your
-              interests.
-            </p>
-
-            <p class="page-style-015">
-              We invite you to connect with us to start planning your dream
-              adventure. Click the button below to contact us directly, follow
-              us on our social media channels for the latest updates, or chat
-              with us conveniently via Email or WhatsApp. Your unforgettable
-              Zanzibar journey begins here.
-            </p>
-            <p class="mb-0">
-              <a href="contact.html" class="btn btn-primary rounded"
-                >Contact With US</a
-              >
-            </p>
+      </section>
+      <section class="collection-intro">
+        <div class="container-xl">
+          <div class="row align-items-end">
+            <div class="col-lg-8">
+              <span class="section-kicker">Made for your island stay</span>
+              <h2 class="section-title">Choose the experience that feels right</h2>
+              <p class="section-lead">From a few relaxed hours on the coast to a full day of discovery or a fly-in safari, find an experience that fits your plans.</p>
+            </div>
+            <div class="col-lg-4 text-lg-right mt-4 mt-lg-0">
+              <span class="collection-count"><i class="fa fa-compass"></i> Island tours &amp; Tanzania safaris</span>
+            </div>
+          </div>
+          <nav class="experience-categories" aria-label="Browse experience types">
+            <a href="zanzibar-halfday-tours.html"><i class="fa fa-sun"></i> Half-Day Tours</a>
+            <a href="zanzibar-day-tours.html"><i class="fa fa-calendar-day"></i> Full-Day Tours</a>
+            <a href="safari-tanzania.html"><i class="fa fa-binoculars"></i> Tanzania Safaris</a>
+          </nav>
+        </div>
+      </section>
+      <section class="tour-grid" id="all-experiences">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="stone-own-tour.html" class="tour-image" data-bg="url(stone_town_tour_01.jpg)" aria-label="Stone Town Tour"><span class="tour-category">Culture &amp; heritage</span><span class="tour-duration"><i class="fa fa-clock"></i> Half day</span></a>
+                <div class="tour-body"><h3><a href="stone-own-tour.html">Stone Town Tour</a></h3><p>Walk historic lanes, browse lively markets and discover the stories behind Zanzibar’s Swahili heritage with a local guide.</p><div class="tour-features"><span>Local guide</span><span>History</span><span>Markets</span></div><a class="tour-link" href="stone-own-tour.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="spice-farm-tour.html" class="tour-image" data-bg="url(spice_farm_01.jpg)" aria-label="Spice Farm Tour"><span class="tour-category">Flavors &amp; culture</span><span class="tour-duration"><i class="fa fa-clock"></i> Half day</span></a>
+                <div class="tour-body"><h3><a href="spice-farm-tour.html">Spice Farm Tour</a></h3><p>See, smell and taste the tropical spices and fruits that helped shape Zanzibar’s place in the world.</p><div class="tour-features"><span>Spice tasting</span><span>Local stories</span></div><a class="tour-link" href="spice-farm-tour.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="prison-island-tour.html" class="tour-image" data-bg="url(prison_island_01.jpg)" aria-label="Prison Island Tour"><span class="tour-category">Island escape</span><span class="tour-duration"><i class="fa fa-clock"></i> Half day</span></a>
+                <div class="tour-body"><h3><a href="prison-island-tour.html">Prison Island Tour</a></h3><p>Take a boat across to explore the island’s history, coastal scenery and famous giant tortoises.</p><div class="tour-features"><span>Boat trip</span><span>Giant tortoises</span></div><a class="tour-link" href="prison-island-tour.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="safari-blue-trip.html" class="tour-image" data-bg="url(safari_blue_tour_01.jpg)" aria-label="Safari Blue Trip"><span class="tour-category">Ocean adventure</span><span class="tour-duration"><i class="fa fa-clock"></i> Full day</span></a>
+                <div class="tour-body"><h3><a href="safari-blue-trip.html">Safari Blue Trip</a></h3><p>Sail through Menai Bay, snorkel in clear water and enjoy a relaxed day among sandbanks and island scenery.</p><div class="tour-features"><span>Traditional boat</span><span>Snorkeling</span><span>Menai Bay</span></div><a class="tour-link" href="safari-blue-trip.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="jozani-forest-tour.html" class="tour-image" data-bg="url(jozani_forest_tour_01.jpg)" aria-label="Jozani Forest Tour"><span class="tour-category">Nature &amp; wildlife</span><span class="tour-duration"><i class="fa fa-clock"></i> Half day</span></a>
+                <div class="tour-body"><h3><a href="jozani-forest-tour.html">Jozani Forest Tour</a></h3><p>Follow forest trails with a guide and look for Zanzibar’s red colobus monkeys and other native wildlife.</p><div class="tour-features"><span>Forest walk</span><span>Wildlife</span></div><a class="tour-link" href="jozani-forest-tour.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="swimming-with-dolphins.html" class="tour-image" data-bg="url(swimming_with_dolphins_01.jpg)" aria-label="Dolphin Tour"><span class="tour-category">Marine life</span><span class="tour-duration"><i class="fa fa-clock"></i> Half day</span></a>
+                <div class="tour-body"><h3><a href="swimming-with-dolphins.html">Dolphin Tour</a></h3><p>Head out with a local crew for a marine wildlife experience in Zanzibar’s clear coastal waters.</p><div class="tour-features"><span>Ocean trip</span><span>Marine life</span></div><a class="tour-link" href="swimming-with-dolphins.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="sunset-dhow-cruise.html" class="tour-image" data-bg="url(sunset_dhow_cruise_01.jpg)" aria-label="Sunset Dhow Cruise"><span class="tour-category">Coastal evening</span><span class="tour-duration"><i class="fa fa-clock"></i> Evening</span></a>
+                <div class="tour-body"><h3><a href="sunset-dhow-cruise.html">Sunset Dhow Cruise</a></h3><p>Unwind aboard a traditional dhow and watch the evening light settle over the Zanzibar coast.</p><div class="tour-features"><span>Traditional dhow</span><span>Sunset views</span></div><a class="tour-link" href="sunset-dhow-cruise.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="one-day-zanzibar-mikumi-flight-safari.html" class="tour-image" data-bg="url(mikumi_national.jpeg)" aria-label="Mikumi Flight Safari"><span class="tour-category">Tanzania safari</span><span class="tour-duration"><i class="fa fa-clock"></i> 1 day</span></a>
+                <div class="tour-body"><h3><a href="one-day-zanzibar-mikumi-flight-safari.html">Mikumi Flight Safari</a></h3><p>Fly from Zanzibar for a day of wildlife viewing in Mikumi National Park with a local safari team.</p><div class="tour-features"><span>Fly-in safari</span><span>Game drive</span></div><a class="tour-link" href="one-day-zanzibar-mikumi-flight-safari.html">View safari <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <article class="tour-card">
+                <a href="swimming-with-turtles.html" class="tour-image" data-bg="url(swimming_with_turtles_01.jpg)" aria-label="Swimming with Turtles"><span class="tour-category">Marine life</span><span class="tour-duration"><i class="fa fa-clock"></i> Half day</span></a>
+                <div class="tour-body"><h3><a href="swimming-with-turtles.html">Swimming with Turtles</a></h3><p>Meet sea turtles in a calm, guided marine experience and learn more about these remarkable animals.</p><div class="tour-features"><span>Sea turtles</span><span>Guided visit</span></div><a class="tour-link" href="swimming-with-turtles.html">View experience <i class="fa fa-arrow-right"></i></a></div>
+              </article>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Elfsight Google Reviews | Untitled Google Reviews -->
-    <script
-      src="https://static.elfsight.com/platform/platform.js"
-      async
-    ></script>
-    <div
-      class="elfsight-app-abaa3133-e49c-4b56-8f1e-3f774ac7ab46"
-      data-elfsight-app-lazy
-    ></div>
-
+      </section>
+      <section class="listing-promise">
+        <div class="container-xl">
+          <div class="row align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0"><span class="eyebrow">Plan it your way</span><h2 class="mt-3">A local team to help shape your day.</h2><p>Tell us when you are visiting and what you enjoy. We can help you choose an experience and plan the details around your stay.</p><a href="contact.html" class="btn btn-primary mt-3">Talk with our team <i class="fa fa-arrow-right ml-2"></i></a></div>
+            <div class="col-lg-7"><div class="row"><div class="col-md-4"><div class="mini-promise"><i class="fa fa-map-marker-alt"></i><div><strong>Local knowledge</strong><span>Guidance from a Zanzibar-based team.</span></div></div></div><div class="col-md-4"><div class="mini-promise"><i class="fa fa-route"></i><div><strong>Flexible plans</strong><span>Choose a pace and experience that suits you.</span></div></div></div><div class="col-md-4"><div class="mini-promise"><i class="fa fa-comments"></i><div><strong>Direct support</strong><span>Speak with our team before you book.</span></div></div></div></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Floating Mail and WhatsApp Buttons -->
     <div class="floating-actions" aria-label="Quick contact actions">
       <a
@@ -278,128 +313,122 @@
     </div>
 
     <footer class="ftco-footer">
-      <div class="container-xl">
-        <div class="row mb-5 pb-5 justify-content-between">
-          <div class="col-md-6 col-lg">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2 logo d-flex">
-                <a class="navbar-brand align-items-center" href="#">
-                  <img
+      <div class="footer-main">
+        <div class="container-xl">
+          <div class="row justify-content-between">
+            <div class="col-md-6 col-lg-4">
+              <div class="ftco-footer-widget footer-about">
+                <a class="footer-brand" href="index.html"
+                  ><img
+                    class="footer-logo"
                     src="binwazir_logo.png"
                     alt="Binwazir Zanzibar logo"
-                    class="page-style-016"
-                  />
-                </a>
-              </h2>
-              <p class="page-style-017">
-                We are dedicated to providing unforgettable adventures that
-                immerse you in the breathtaking beauty and rich culture of
-                Zanzibar.
-              </p>
-              <ul class="ftco-footer-social list-unstyled mt-2">
-                <li>
-                  <a
-                    href="https://www.instagram.com/binwazir_zanzibar"
-                    target="_blank"
-                    ><span class="fab fa-instagram"></span
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/haroun.waziry"
-                    target="_blank"
-                    ><span class="fab fa-facebook"></span
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.tiktok.com/@binwazirzanzibar?"
-                    target="_blank"
-                    ><span class="fab fa-tiktok"></span
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Pages</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="index.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>Home</a
-                  >
-                </li>
-                <li>
-                  <a href="about-us.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>About Us</a
-                  >
-                </li>
-                <li>
-                  <a href="contact.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>Contact Us</a
-                  >
-                </li>
-                <li>
-                  <a href="our-services.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>Our
-                    Services</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Quick Links</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="zanzibar-halfday-tours.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>Half-Day
-                    Tours</a
-                  >
-                </li>
-                <li>
-                  <a href="zanzibar-day-tours.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>Full-Day
-                    Tours</a
-                  >
-                </li>
-                <li>
-                  <a href="safari-tanzania.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>Safari
-                    Tanzania</a
-                  >
-                </li>
-                <li>
-                  <a href="faqs.html"
-                    ><span class="fa fa-chevron-right mr-2"></span>FAQs</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
-              <div class="block-23 mb-3">
-                <ul>
+                  /><span class="footer-brand-text"
+                    ><strong>Binwazir Zanzibar</strong
+                    ><span>Tours & Safari</span></span
+                  ></a
+                >
+                <p>
+                  We create unforgettable journeys through the natural beauty,
+                  living culture and warm hospitality of Zanzibar and Tanzania.
+                </p>
+                <ul class="ftco-footer-social list-unstyled mt-4">
                   <li>
-                    <span class="icon fa fa-map marker"></span
-                    ><span class="text"
-                      >Stone Town, Zanzibar Islands, Tanzania.</span
+                    <a
+                      href="https://www.instagram.com/binwazir_zanzibar"
+                      target="_blank"
+                      ><span class="fab fa-instagram"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/haroun.waziry"
+                      target="_blank"
+                      ><span class="fab fa-facebook-f"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.tiktok.com/@binwazirzanzibar?"
+                      target="_blank"
+                      ><span class="fab fa-tiktok"></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="ftco-footer-widget">
+                <h2>Explore</h2>
+                <ul class="list-unstyled footer-links">
+                  <li>
+                    <a href="index.html"
+                      ><i class="fa fa-chevron-right"></i>Home</a
                     >
                   </li>
                   <li>
-                    <a href="callto:+255778125020"
-                      ><span class="icon fa fa-phone"></span
-                      ><span class="text">+255 778 125 020</span></a
+                    <a href="about-us.html"
+                      ><i class="fa fa-chevron-right"></i>About Us</a
                     >
                   </li>
                   <li>
-                    <a href="mailto:info@binwazirzanzibar.co.tz" target="_blank"
-                      ><span class="icon fa fa-envelope-open"></span
-                      ><span class="text">info@binwazirzanzibar.co.tz</span></a
+                    <a href="faqs.html"
+                      ><i class="fa fa-chevron-right"></i>FAQs</a
+                    >
+                  </li>
+                  <li>
+                    <a href="our-services.html"
+                      ><i class="fa fa-chevron-right"></i>Our Services</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="ftco-footer-widget">
+                <h2>Experiences</h2>
+                <ul class="list-unstyled footer-links">
+                  <li>
+                    <a href="zanzibar-halfday-tours.html"
+                      ><i class="fa fa-chevron-right"></i>Half-Day Tours</a
+                    >
+                  </li>
+                  <li>
+                    <a href="zanzibar-day-tours.html"
+                      ><i class="fa fa-chevron-right"></i>Full-Day Tours</a
+                    >
+                  </li>
+                  <li>
+                    <a href="safari-tanzania.html"
+                      ><i class="fa fa-chevron-right"></i>Tanzania Safaris</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tours-and-excursions.html"
+                      ><i class="fa fa-chevron-right"></i>All Tours</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="ftco-footer-widget">
+                <h2>Contact Us</h2>
+                <ul class="footer-contact">
+                  <li>
+                    <span class="footer-contact-icon fa fa-map-marker"></span
+                    ><span>Stone Town, Zanzibar Islands,<br />Tanzania</span>
+                  </li>
+                  <li>
+                    <a href="tel:+255778125020"
+                      ><span class="footer-contact-icon fa fa-phone"></span
+                      ><span>+255 778 125 020</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:info@binwazirzanzibar.co.tz"
+                      ><span class="footer-contact-icon fa fa-envelope"></span
+                      ><span>info@binwazirzanzibar.co.tz</span></a
                     >
                   </li>
                 </ul>
@@ -408,20 +437,20 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid px-0 py-5 bg-darken">
+      <div class="footer-bottom">
         <div class="container-xl">
           <div class="row">
-            <div class="col-md-12 text-center">
-              <p class="mb-0 page-style-018">
+            <div class="col-md-7">
+              <p class="mb-0">
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                All rights reserved | by
-                <a href="#" target="_blank" rel="nofollow noopener"
-                  >Binwazir Zanzibar Tours and Safari</a
-                >
+                Binwazir Zanzibar Tours and Safari. All rights reserved.
               </p>
+            </div>
+            <div class="col-md-5 text-md-right">
+              <p class="mb-0">Explore locally. Travel meaningfully.</p>
             </div>
           </div>
         </div>
