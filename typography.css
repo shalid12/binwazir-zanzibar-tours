@@ -137,7 +137,9 @@ h6 {
   .service-card p,
   .process-card p,
   .promise-card p,
+  .why-card p,
   .tour-body p,
+  .experience-body p,
   .related-body p,
   .cross-card p,
   .place-content p,
@@ -152,9 +154,25 @@ h6 {
     font-size: 16px;
     line-height: 1.65;
   }
+  .tour-price span,
+  .tour-price small,
+  .safari-price-note,
+  .collection-count,
+  .tour-category,
+  .tour-duration,
+  .tour-features span,
+  .mini-promise span,
+  .experience-tag,
+  .place-location {
+    font-size: 13px;
+  }
+  .place-number {
+    font-size: 13px;
+  }
   .tour-link,
   .related-body > a,
-  .place-link {
+  .place-link,
+  .text-link {
     font-size: 13px;
   }
 }
