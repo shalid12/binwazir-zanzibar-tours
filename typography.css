@@ -101,6 +101,14 @@ h6 {
   padding: 10px 17px;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ftco-footer .footer-main .row > [class*="col-"] {
+    flex: 0 0 50%;
+    width: 50%;
+    max-width: 50%;
+  }
+}
+
 @media (max-width: 767.98px) {
   body,
   p {
@@ -124,5 +132,29 @@ h6 {
   }
   .section-lead {
     font-size: 15px;
+  }
+  .feature-card p,
+  .service-card p,
+  .process-card p,
+  .promise-card p,
+  .tour-body p,
+  .related-body p,
+  .cross-card p,
+  .place-content p,
+  .contact-method p,
+  .enquiry-guide-grid .prep-card p,
+  .cta-box p,
+  .tour-detail-cta p,
+  .travel-note,
+  .itinerary-note span,
+  .safari-rate-panel p,
+  .pricing-warning {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .tour-link,
+  .related-body > a,
+  .place-link {
+    font-size: 13px;
   }
 }
