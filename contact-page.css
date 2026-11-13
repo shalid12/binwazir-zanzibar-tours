@@ -430,6 +430,9 @@
   .enquiry-guide-panel {
     padding: 34px 25px;
   }
+  .contact-form-panel > [data-fc-key] {
+    height: 720px;
+  }
   .enquiry-guide-panel > h2 {
     font-size: 29px;
   }
