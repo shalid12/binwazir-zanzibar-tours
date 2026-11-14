@@ -252,6 +252,9 @@ a {
   background: var(--gold);
   z-index: -1;
 }
+.about-intro-image:after {
+  display: none;
+}
 .intro-copy {
   padding-left: 38px;
 }
