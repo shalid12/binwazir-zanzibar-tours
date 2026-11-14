@@ -34,7 +34,8 @@
     var(--site-blue)
   ) !important;
   padding: 12px 0 !important;
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 50;
   box-shadow: 0 4px 20px rgba(0, 69, 110, 0.18);
 }
