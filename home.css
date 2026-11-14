@@ -441,27 +441,35 @@ a {
 .experience-badge {
   position: absolute;
   left: 26px;
-  bottom: 10px;
-  width: 126px;
-  height: 126px;
-  border-radius: 50%;
-  background: var(--gold);
+  bottom: 68px;
+  width: 220px;
+  min-height: 84px;
+  padding: 14px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--navy), var(--navy2));
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  text-align: center;
-  font-size: 12px;
+  gap: 12px;
+  text-align: left;
+  font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
-  line-height: 1.2;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  box-shadow: 0 12px 32px rgba(7, 27, 47, 0.24);
 }
 
 .experience-badge strong {
-  font-size: 34px;
+  color: var(--gold);
+  font-size: 40px;
   line-height: 1;
+}
+
+.experience-badge span {
+  display: block;
 }
 
 .about-copy {
@@ -1955,8 +1963,15 @@ a {
   }
 
   .experience-badge {
-    width: 106px;
-    height: 106px;
+    left: 14px;
+    width: 190px;
+    min-height: 76px;
+    padding: 12px 14px;
+    gap: 10px;
+  }
+
+  .experience-badge strong {
+    font-size: 36px;
   }
 }
 

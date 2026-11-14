@@ -85,6 +85,30 @@
 .site-navbar .navbar-nav > .nav-item > .nav-link.active {
   color: #FBBF24 !important;
 }
+.site-navbar .dropdown-menu {
+  background: var(--site-navy);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+.site-navbar .dropdown-menu .dropdown-item {
+  color: #fff;
+  font-weight: 800;
+}
+.site-navbar .dropdown-menu .dropdown-item:hover,
+.site-navbar .dropdown-menu .dropdown-item:focus {
+  background: var(--site-blue);
+  color: #fff;
+}
+.site-navbar .dropdown-menu .dropdown-item.active {
+  background: var(--site-gold);
+  color: var(--site-navy);
+}
+.site-navbar .dropdown-toggle::after {
+  border-top-width: 0.5em;
+  border-right-width: 0.45em;
+  border-left-width: 0.45em;
+  margin-left: 0.45em;
+  vertical-align: 0.12em;
+}
 .site-navbar .navbar-toggler {
   color: #fff !important;
   border: 1px solid rgba(255, 255, 255, 0.35) !important;
